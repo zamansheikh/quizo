@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Quizzo</title>
+    <link rel="stylesheet" href="styles_register.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Quizzo</h1>
+            </div>
+            <nav>
+                <ul class="navlist">
+                    <li><a href="quize_master_home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#">Quiz Categories <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="all_quize.html">All Quizzes</a>
+                            <a href="daily_quiz.html">Daily Quiz</a>
+                            <a href="monthly_quiz.html">Monthly Quiz</a>
+                            <a href="yearly_quiz.html">Yearly Quiz</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#">Account <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="login.html">Login</a>
+                            <a href="register.html">Register</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Auth Section -->
+    <section id="auth">
+        <div class="container">
+            <div class="auth-form">
+                <div class="card" id="signup-card">
+                    <h2>Register</h2>
+                    <form id="signup-form">
+                        <input type="name" id="signup-name" placeholder="Name" required>
+                        <input type="email" id="signup-email" placeholder="Email" required>
+                        <input type="password" id="signup-password" placeholder="Password" required>
+                        <input type="password" id="signup-password-confirm" placeholder="Confirm Password" required>
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Online Quiz Competition. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts_auth.js"></script>
+</body>
+
+</html>

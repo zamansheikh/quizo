@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 30px 0;
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #343a40;
+    min-width: 160px;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: #5ed7ea;
+}
+
+.navlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.navlist li {
+    margin-right: 15px;
+}
+
+.navlist li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navlist li a:hover {
+    color: #5ed7ea;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-image {
+    flex: 1 1 300px; /* Adjust width of image box */
+    margin-right: 20px;
+}
+
+.contact-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    opacity: 0.9; /* Opacity effect */
+    transition: all 0.3s ease;
+}
+
+.contact-image img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+    opacity: 1; /* Full opacity on hover */
+}
+
+.contact-info {
+    flex: 1 1 45%; /* Adjust width of information box */
+    text-align: center; /* Center alignment for information box */
+}
+
+.contact-info h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.submit-to-google-sheet {
+    margin-top: 20px;
+    text-align: center; /* Center alignment for "Submit to Google Sheet" section */
+}
+
+.submit-to-google-sheet h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #5ed7ea;
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 0px 1px #171a1f, 0px 0px 2px #171a1f;
+}

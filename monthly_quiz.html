@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Quiz - Quizzo</title>
+    <link rel="stylesheet" href="styles_monthly_quiz.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Quizzo</h1>
+            </div>
+            <nav>
+                <ul class="navlist">
+                    <li><a href="quize_master_home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#">Quiz Categories <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="all_quize.html">All Quizzes</a>
+                            <a href="daily_quiz.html">Daily Quiz</a>
+                            <a href="monthly_quiz.html">Monthly Quiz</a>
+                            <a href="yearly_quiz.html">Yearly Quiz</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#">Account <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="login.html">Login</a>
+                            <a href="register.html">Register</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Daily Quiz Section -->
+    <div class="quiz-section">
+        <div class="card">
+            <div id="quiz1">
+                <h2 class="question" id="question">Quiz Question 1</h2>
+                <hr />
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" class="answer" id="a1">
+                        <label for="a1" id="option_1">Option A</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" class="answer" id="b1">
+                        <label for="b1" id="option_2">Option B</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" class="answer" id="c1">
+                        <label for="c1" id="option_3">Option C</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" class="answer" id="d1">
+                        <label for="d1" id="option_4">Option D</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Buttons -->
+    <div class="quiz-buttons">
+        <button id="previous">Previous</button>
+        <button id="submit">Submit</button>
+        <button id="next">Next</button>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Online Quiz Competition. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="daily_quiz.js"></script>
+</body>
+
+</html>
