@@ -1,35 +1,36 @@
 const quizData = [
     {
-        question: "What does HTML stand for? Sec Science",
+        question: "What is the chemical symbol for water?",
         options: [
-            "Hypertext Markup Language",
-            "Hyper Transfer Markup Language",
-            "Hypertext Machine Language",
-            "Hyperlink and Text Markup Language",
+            "H2O",
+            "O2",
+            "H2O2",
+            "HO",
         ],
         correct: 0,
     },
     {
-        question: "Which CSS property is used to control the spacing between elements?",
-        options: ["margin", "padding", "spacing", "border-spacing"],
-        correct: 1,
+        question: "Which planet is known as the Red Planet?",
+        options: ["Mars", "Venus", "Jupiter", "Saturn"],
+        correct: 0,
     },
     {
-        question: "What is the JavaScript function used to select an HTML element by its id?",
+        question: "What is the process by which plants make their own food?",
         options: [
-            "document.query",
-            "getElementById",
-            "selectElement",
-            "findElementById",
+            "Photosynthesis",
+            "Respiration",
+            "Digestion",
+            "Transpiration",
         ],
-        correct: 1,
+        correct: 0,
     },
     {
-        question: "Which of the following is not a valid HTML tag?",
-        options: ["<ul>", "<li>", "<ol>", "<dl>"],
-        correct: 3,
+        question: "What is the speed of light in a vacuum?",
+        options: ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
+        correct: 0,
     },
 ];
+
 
 let currentQuiz = 0;
 let score = 0;

@@ -1,35 +1,36 @@
 const quizData = [
     {
-        question: "What does HTML stand for? Sec Arts",
+        question: "Who painted the Mona Lisa?",
         options: [
-            "Hypertext Markup Language",
-            "Hyper Transfer Markup Language",
-            "Hypertext Machine Language",
-            "Hyperlink and Text Markup Language",
+            "Leonardo da Vinci",
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Claude Monet",
         ],
         correct: 0,
     },
     {
-        question: "Which CSS property is used to control the spacing between elements?",
-        options: ["margin", "padding", "spacing", "border-spacing"],
-        correct: 1,
+        question: "What is the primary focus of the study of humanities?",
+        options: ["Human culture", "Natural sciences", "Medical science", "Technological advances"],
+        correct: 0,
     },
     {
-        question: "What is the JavaScript function used to select an HTML element by its id?",
+        question: "Which of the following is a play written by William Shakespeare?",
         options: [
-            "document.query",
-            "getElementById",
-            "selectElement",
-            "findElementById",
+            "Hamlet",
+            "War and Peace",
+            "Pride and Prejudice",
+            "Moby Dick",
         ],
-        correct: 1,
+        correct: 0,
     },
     {
-        question: "Which of the following is not a valid HTML tag?",
-        options: ["<ul>", "<li>", "<ol>", "<dl>"],
-        correct: 3,
+        question: "What architectural style is characterized by pointed arches, ribbed vaults, and flying buttresses?",
+        options: ["Gothic", "Baroque", "Renaissance", "Romanesque"],
+        correct: 0,
     },
 ];
+
 
 let currentQuiz = 0;
 let score = 0;

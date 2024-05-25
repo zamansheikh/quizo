@@ -1,35 +1,36 @@
 const quizData = [
     {
-        question: "What does HTML stand for? Sec Commerse",
+        question: "What is the main objective of financial accounting?",
         options: [
-            "Hypertext Markup Language",
-            "Hyper Transfer Markup Language",
-            "Hypertext Machine Language",
-            "Hyperlink and Text Markup Language",
+            "To provide financial information to external users",
+            "To prepare internal reports for management",
+            "To calculate income tax liabilities",
+            "To manage cash flow within the company",
         ],
         correct: 0,
     },
     {
-        question: "Which CSS property is used to control the spacing between elements?",
-        options: ["margin", "padding", "spacing", "border-spacing"],
-        correct: 1,
+        question: "What does GDP stand for in economics?",
+        options: ["Gross Domestic Product", "Global Domestic Product", "Gross Development Profit", "Global Development Profit"],
+        correct: 0,
     },
     {
-        question: "What is the JavaScript function used to select an HTML element by its id?",
+        question: "Which of the following is a type of market structure?",
         options: [
-            "document.query",
-            "getElementById",
-            "selectElement",
-            "findElementById",
+            "Perfect Competition",
+            "Limited Liability",
+            "Sole Proprietorship",
+            "Double Entry System",
         ],
-        correct: 1,
+        correct: 0,
     },
     {
-        question: "Which of the following is not a valid HTML tag?",
-        options: ["<ul>", "<li>", "<ol>", "<dl>"],
-        correct: 3,
+        question: "What is the principle of 'opportunity cost'?",
+        options: ["The cost of the next best alternative foregone", "The cost of producing one more unit of a good", "The cost incurred by a business in the production process", "The cost of acquiring new customers"],
+        correct: 0,
     },
 ];
+
 
 let currentQuiz = 0;
 let score = 0;
