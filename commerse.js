@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "What does HTML stand for?",
+        question: "What does HTML stand for? Sec Commerse",
         options: [
             "Hypertext Markup Language",
             "Hyper Transfer Markup Language",
